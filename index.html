@@ -58,7 +58,7 @@
     <main>
       <!-- Information Section -->
       <section>
-        <div>
+        <div class="content-wrapper">
           <h2>The Odin Project Information</h2>
 
           <div></div>
@@ -66,29 +66,38 @@
       </section>
 
       <!-- Testimonial Section -->
-      <section>
-        <div>
-          <p>
-            This is an inspiring quote, or a testimonial from a customer. Maybe
-            it's just filing up space, or maybe people will actually read it.
-            Who knows? All I know is that it look nice
+      <section class="bg-color-1 pad-t-b-120">
+        <div class="content-wrapper">
+          <p class="quote-text">
+            <em>
+              This is an inspiring quote, or a testimonial from a customer.
+              Maybe it's just filing up space, or maybe people will actually
+              read it. Who knows? All I know is that it look nice</em
+            >
           </p>
-          <p>-Thor, God of Thunder</p>
+          <p class="text-left"><strong>-Thor, God of Thunder</strong></p>
         </div>
       </section>
 
       <!-- Call to Action Section -->
-      <section>
-        <div>
-          <div>
-            <h2>Call to action! It's time!</h2>
-            <p>
-              Sign Up for our product by clicking that button righ over there!
-            </p>
-          </div>
+      <section class="flex justify-center pad-t-b-80">
+        <div
+          class="bg-color-accent ntr-color call-to-action border-radius-8 pad-t-b-40"
+        >
+          <div class="content-wrapper">
+            <div class="flex">
+              <div class="flex-item">
+                <h2 class="call-to-action-heading">Sign Up Now!</h2>
+                <p class="call-to-action-subheading">
+                  Sign Up for our product by clicking that button righ over
+                  there!
+                </p>
+              </div>
 
-          <div>
-            <button>Sign Up</button>
+              <div class="flex flex-item justify-end align-center">
+                <button class="btn btn-outline">Sign Up</button>
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -96,9 +105,9 @@
       <!-- Footer Section -->
     </main>
 
-    <footer>
+    <footer class="bg-color ntr-color pad-t-b-24">
       <div>
-        <p>Copyright &copy; The Odin Project 2021</p>
+        <p class="text-center">Copyright &copy; The Odin Project 2021</p>
       </div>
     </footer>
   </body>
